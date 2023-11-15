@@ -1,0 +1,10 @@
+<details>
+  <summary (click)="getExercises(day.id!)">{{day.name}} <br></summary>
+  <br>
+  <ul>
+    <section class="results">
+      <app-exercise [exercises]="exercises"></app-exercise>
+    </section>
+
+  </ul>
+</details>

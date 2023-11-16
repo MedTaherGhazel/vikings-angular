@@ -14,6 +14,9 @@ import { ProgramDetailComponent } from './all-programs/program-detail/program-de
 import { WeekComponent } from './all-programs/week/week.component';
 import { DayComponent } from './all-programs/day/day.component';
 import { ExerciseComponent } from './all-programs/exercise/exercise.component';
+import { TransformationComponent } from './transformation/transformation.component';
+import { MotivationComponent } from './motivation/motivation.component';
+import { AccordingComponent } from './according/according.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +31,9 @@ import { ExerciseComponent } from './all-programs/exercise/exercise.component';
     WeekComponent,
     DayComponent,
     ExerciseComponent,
+    TransformationComponent,
+    MotivationComponent,
+    AccordingComponent
   ],
   imports: [
     BrowserModule,
